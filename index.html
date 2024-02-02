@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <title>Product Page - Flipkart Style</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="product-image">
+            <img src="https://via.placeholder.com/400" alt="Product Image">
+        </div>
+        <div class="product-details">
+            <h1 class="product-title">Example Product</h1>
+            <p class="product-vendor">Example Vendor</p>
+            <p class="product-price">Price: $50</p>
+            <p class="product-compare-price">Compare at Price: $100</p>
+            <p class="product-percentage-off">Percentage Off: 50%</p>
+            <select class="color-selector">
+                <option value="Red">Red</option>
+                <option value="Blue">Blue</option>
+                <option value="Green">Green</option>
+            </select>
+            <select class="size-selector">
+                <option value="Small">Small</option>
+                <option value="Medium">Medium</option>
+                <option value="Large">Large</option>
+            </select>
+            <input type="number" class="quantity-selector" value="1" min="1">
+            <button class="add-to-cart-button" onclick="addToCart()">Add to Cart</button>
+            <p class="add-to-cart-message"></p>
+        </div>
+        <div class="product-description">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam fringilla, sem vel pellentesque ultrices,
+                ligula dui fringilla quam.</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
